@@ -1,0 +1,20 @@
+2019-12-10T12:20:45+00:00 CRITICAL syntax error, unexpected end of file in /home/mobilewe/public_html/csc/beta/wp-content/themes/cybersecurity/functions.php on line 484
+
+2019-12-10T12:46:35+00:00 CRITICAL syntax error, unexpected end of file in /home/mobilewe/public_html/csc/beta/wp-content/themes/cybersecurity/functions.php on line 484
+
+2019-12-10T12:47:47+00:00 CRITICAL Call to a member function get_value() on string in /home/mobilewe/public_html/csc/beta/wp-content/themes/cybersecurity/functions.php on line 755
+
+2019-12-10T12:48:00+00:00 CRITICAL Call to a member function get_value() on string in /home/mobilewe/public_html/csc/beta/wp-content/themes/cybersecurity/functions.php on line 755
+
+2019-12-10T12:48:07+00:00 CRITICAL Call to a member function get_value() on string in /home/mobilewe/public_html/csc/beta/wp-content/themes/cybersecurity/functions.php on line 755
+
+2019-12-10T12:50:37+00:00 CRITICAL Call to a member function get_value() on string in /home/mobilewe/public_html/csc/beta/wp-content/themes/cybersecurity/functions.php on line 755
+
+2019-12-10T12:50:43+00:00 CRITICAL Call to a member function get_value() on string in /home/mobilewe/public_html/csc/beta/wp-content/themes/cybersecurity/functions.php on line 755
+
+2019-12-10T12:52:54+00:00 CRITICAL Call to a member function get_value() on string in /home/mobilewe/public_html/csc/beta/wp-content/themes/cybersecurity/functions.php on line 762
+
+2019-12-10T12:54:48+00:00 CRITICAL Call to a member function get_value() on string in /home/mobilewe/public_html/csc/beta/wp-content/themes/cybersecurity/functions.php on line 762
+
+2019-12-10T12:55:10+00:00 CRITICAL Call to a member function get_value() on string in /home/mobilewe/public_html/csc/beta/wp-content/themes/cybersecurity/functions.php on line 762
+

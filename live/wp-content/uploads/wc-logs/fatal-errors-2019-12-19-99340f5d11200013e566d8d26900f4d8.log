@@ -1,0 +1,2 @@
+2019-12-19T11:38:38+00:00 CRITICAL Cannot redeclare alter_woocommerce_checkout_fields() (previously declared in C:\xampp\htdocs\cybersecurity\live\wp-content\themes\cybersecurity\functions.php:745) in C:\xampp\htdocs\cybersecurity\live\wp-content\themes\cybersecurity\functions.php on line 774
+

@@ -1,0 +1,20 @@
+2019-12-20T07:13:30+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\cybersecurity\live\wp-content\themes\cybersecurity\functions.php:821
+Stack trace:
+#0 C:\xampp\htdocs\cybersecurity\live\wp-includes\class-wp-hook.php(288): my_custom_checkout_field('')
+#1 C:\xampp\htdocs\cybersecurity\live\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\cybersecurity\live\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\cybersecurity\live\wp-content\themes\cybersecurity\woocommerce\checkout\form-checkout.php(40): do_action('woocommerce_che...')
+#4 C:\xampp\htdocs\cybersecurity\live\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cybersecurity\live\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(285): wc_get_template('checkout/form-c...', Array)
+#6 C:\xampp\htdocs\cybersecurity\live\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode- in C:\xampp\htdocs\cybersecurity\live\wp-content\themes\cybersecurity\functions.php on line 821
+
+2019-12-20T10:13:25+00:00 CRITICAL Uncaught Error: Call to a member function get_states() on null in C:\xampp\htdocs\cybersecurity\live\wp-content\themes\cybersecurity\functions.php:831
+Stack trace:
+#0 C:\xampp\htdocs\cybersecurity\live\wp-includes\class-wp-hook.php(288): my_custom_checkout_field('')
+#1 C:\xampp\htdocs\cybersecurity\live\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\cybersecurity\live\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\cybersecurity\live\wp-content\themes\cybersecurity\woocommerce\checkout\form-checkout.php(40): do_action('woocommerce_che...')
+#4 C:\xampp\htdocs\cybersecurity\live\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cybersecurity\live\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(285): wc_get_template('checkout/form-c...', Array)
+#6 C:\xampp\htdocs\cybersecurity\live\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-sh in C:\xampp\htdocs\cybersecurity\live\wp-content\themes\cybersecurity\functions.php on line 831
+

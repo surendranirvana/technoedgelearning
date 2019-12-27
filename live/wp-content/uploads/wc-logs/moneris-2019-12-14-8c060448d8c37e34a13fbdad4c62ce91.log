@@ -1,0 +1,133 @@
+12-14-2019 @ 10:37:23 - Request
+method: POST
+uri: https://www3.moneris.com/gateway2/servlet/MpgRequest
+body: <?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <store_id>monmpg8771</store_id>
+  <api_token>********************</api_token>
+  <preauth>
+    <order_id>321</order_id>
+    <cust_id>wc-c56fea608fe040e16d59bd74b7eaf41b</cust_id>
+    <amount>0.01</amount>
+    <pan>4***********5463</pan>
+    <expdate>2009</expdate>
+    <crypt_type>7</crypt_type>
+    <dynamic_descriptor>TechnoEdge Learning</dynamic_descriptor>
+    <cvd_info>
+      <cvd_indicator>1</cvd_indicator>
+      <cvd_value>***</cvd_value>
+    </cvd_info>
+    <cust_info>
+      <email>surendra.yadav@nirvanacanada.com</email>
+      <instructions/>
+      <billing>
+        <first_name>Sandeep</first_name>
+        <last_name>Mittal</last_name>
+        <company_name>Nirvana Canada</company_name>
+        <address>1500 - 701 W. Georgia Street</address>
+        <city>Vancouver</city>
+        <province>BC</province>
+        <postal_code>V7Y1C6</postal_code>
+        <country>country</country>
+        <phone_number>9876543210</phone_number>
+        <fax/>
+        <tax1/>
+        <tax2/>
+        <tax3/>
+        <shipping_cost>0.00</shipping_cost>
+      </billing>
+      <shipping>
+        <first_name>Sandeep</first_name>
+        <last_name>Mittal</last_name>
+        <company_name>Nirvana Canada</company_name>
+        <address>1500 - 701 W. Georgia Street</address>
+        <city>Vancouver</city>
+        <province>BC</province>
+        <postal_code>V7Y1C6</postal_code>
+        <country>country</country>
+        <phone_number/>
+        <fax/>
+        <tax1/>
+        <tax2/>
+        <tax3/>
+        <shipping_cost>0.00</shipping_cost>
+      </shipping>
+      <item>
+        <name>Test product</name>
+        <quantity>1</quantity>
+        <product_code/>
+        <extended_amount>0.01</extended_amount>
+      </item>
+    </cust_info>
+  </preauth>
+</request>
+time: 0.71696
+
+12-14-2019 @ 10:37:23 - Response
+code: 200
+body: <?xml version="1.0" standalone="yes"?>
+<response>
+  <receipt>
+    <ReceiptId>321</ReceiptId>
+    <ReferenceNum>661041800015870010</ReferenceNum>
+    <ResponseCode>027</ResponseCode>
+    <ISO>01</ISO>
+    <AuthCode>01685G</AuthCode>
+    <TransTime>02:37:22</TransTime>
+    <TransDate>2019-12-14</TransDate>
+    <TransType>01</TransType>
+    <Complete>true</Complete>
+    <Message>APPROVED           *                    =</Message>
+    <TransAmount>0.01</TransAmount>
+    <CardType>V</CardType>
+    <TransID>31461-0_159</TransID>
+    <TimedOut>false</TimedOut>
+    <BankTotals>null</BankTotals>
+    <Ticket>null</Ticket>
+    <MessageId>2J9348202425195</MessageId>
+    <CvdResultCode>1M</CvdResultCode>
+    <IsVisaDebit>false</IsVisaDebit>
+  </receipt>
+</response>
+
+12-14-2019 @ 10:37:23 - Request
+method: POST
+uri: https://www3.moneris.com/gateway2/servlet/MpgRequest
+body: <?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <store_id>monmpg8771</store_id>
+  <api_token>********************</api_token>
+  <completion>
+    <order_id>321</order_id>
+    <comp_amount>0.01</comp_amount>
+    <txn_number>31461-0_159</txn_number>
+    <crypt_type>7</crypt_type>
+  </completion>
+</request>
+time: 0.65667
+
+12-14-2019 @ 10:37:23 - Response
+code: 200
+body: <?xml version="1.0" standalone="yes"?>
+<response>
+  <receipt>
+    <ReceiptId>321</ReceiptId>
+    <ReferenceNum>661041800015870020</ReferenceNum>
+    <ResponseCode>027</ResponseCode>
+    <ISO>01</ISO>
+    <AuthCode>01685G</AuthCode>
+    <TransTime>02:37:23</TransTime>
+    <TransDate>2019-12-14</TransDate>
+    <TransType>02</TransType>
+    <Complete>true</Complete>
+    <Message>APPROVED           *                    =</Message>
+    <TransAmount>0.01</TransAmount>
+    <CardType>V</CardType>
+    <TransID>31462-1_159</TransID>
+    <TimedOut>false</TimedOut>
+    <BankTotals>null</BankTotals>
+    <Ticket>null</Ticket>
+    <IsVisaDebit>false</IsVisaDebit>
+  </receipt>
+</response>
+
